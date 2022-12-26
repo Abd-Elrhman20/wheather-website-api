@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/weather.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container-fluid">
+            <div class="row m-auto w-75 py-5">
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <a class="navbar-brand ms-3" href="#">
+                        <img src="img/logo@2x.png" class="img-fluid me-2 " width="64" alt="logo">
+                        <div class="d-inline-block text-start">
+                            <h6 class="mb-1">Weather</h6>
+                            <p class="small">tagline goes here</p>
+                        </div>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mb-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link px-3 special" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link px-3" href="#">News</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link px-3" href="#">Live cameras</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link px-3" href="#">Photos</a>
+                            </li>
+                            <li class="nav-item mx-3 me-5">
+                                <a class="nav-link px-3" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="w-75 m-auto my-5 position-relative">
+                <input class="form-control inp rounded-5 p-3" placeholder="find your location" type="search">
+                <button class="btn rounded-5 find">find</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid bg position-relative ">
+        <div class="content row w-75 m-auto rounded-2 position-absolute">
+            <div class="col-4 cartoona">
+            </div>
+            <div class="col-4 sp-color cartoona2">
+            </div>
+            <div class="col-4 cartoona3">
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="row footer">
+            <div class="col-md-8">
+                <form action="#" class="subscribe-form position-relative">
+                    <input type="text" class="form-control m-auto w-75 rounded-5 py-3"
+                        placeholder="Enter your email to subscribe...">
+                    <input type="submit" class="btn btn-info text-light position-absolute rounded-5" value="Subscribe">
+                </form>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled d-flex">
+                    <li class="mx-2"><i class="fab fa-facebook-f"></i></li>
+                    <li class="mx-2"><i class="fab fa-twitter"></i></li>
+                    <li class="mx-2"><i class="fab fa-google"></i></li>
+                    <li class="mx-2"><i class="fab fa-pinterest-p"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row text-center mt-0" style="color: white;">
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

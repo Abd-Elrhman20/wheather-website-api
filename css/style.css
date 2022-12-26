@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #1e202b;
+}
+
+.navbar-brand h6 {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.navbar div {
+    color: white;
+}
+
+.navbar-brand p {
+    font-size: 0.475em;
+}
+
+.navbar-brand img {
+    vertical-align: sub;
+}
+
+.nav-item a {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    color: white;
+}
+
+.special {
+    border: #009ad8 2px solid !important;
+    color: #009ad8 !important;
+    border-radius: 50px;
+}
+
+.nav-item:hover a {
+    border: #009ad8 2px solid;
+    color: #009ad8;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+/* //////////////// */
+section {
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 45vh;
+}
+
+.find {
+    background-color: #009ad8;
+    color: white;
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    padding: 14px 46px;
+}
+
+.find:hover {
+    color: white !important;
+    background-color: #009ad8 !important;
+    border-color: #009ad8 !important;
+}
+
+.inp {
+    background-color: #1e202b;
+    border-color: #1e202b;
+    color: white;
+}
+
+.inp:focus {
+    background-color: #1e202b;
+    border-color: #1e202b;
+    box-shadow: none;
+    color: white;
+}
+
+/* ////////////// */
+.bg {
+    background-color: #1e202b;
+    padding: 9rem 0;
+}
+
+/* ///////// */
+
+.content {
+    color: #bfc1c8;
+    background-color: #323544;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.sp-color {
+    background-color: #262936;
+}
+
+.degree {
+    color: white;
+}
+
+.weather, .weather2, .weather3 {
+    color: #009ad8;
+}
+
+.head, .body {
+    padding: 10px;
+}
+
+.location {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.body .ico img {
+    width: 23px;
+    margin-right: 4px;
+}
+
+.content .body .degree {
+    font-size: 4rem;
+}
+
+.content .body .icon {
+    display: inline-block;
+    /* vertical-align: ; */
+}
+
+.degree2, .degree3 {
+    font-size: 2.2rem;
+    color: white;
+}
+
+/* ///// */
+footer {
+    background: #262936;
+}
+
+.footer {
+    margin: auto;
+    /* text-align: center; */
+    width: 75%;
+    padding: 70px 0;
+}
+
+footer input[type=submit] {
+    left: 74.5%;
+    top: 1px;
+    padding: 15px;
+}
+
+footer li {
+    line-height: 5px;
+    border-radius: 50%;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #009ad8;
+    font-size: 1.5rem;
+    background-color: black;
+}
+
+footer li:hover {
+    color: white;
+    background-color: #009ad8;
+    transition-duration: 0.3s;
+
+}
